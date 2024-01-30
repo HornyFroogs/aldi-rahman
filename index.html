@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ALDY</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="ext.js" language="javascript"></script>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+			integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<!-- Creating Menu Tabs & Logo at Top Using HTML -->
+		<header>
+			<a href="#" class="logo">Portofolio</a>
+			<div class="toggle" onclick="toggleMenu();"></div>
+			<ul class="menu">
+				<li><a href="#home" onclick="toggleMenu();">Home</a></li>
+				<li><a href="#contact" onclick="toggleMenu();">Kontak</a></li>
+			</ul>
+		</header>
+
+		<!-- Creating Banner Layout in HTML -->
+		<section class="banner" id="home">
+			<div class="textBx">
+				<h2>
+					<span>MY PORTOFOLIO </span>
+				</h2>
+				<a href="#about" class="btn">Tentang Saya</a>
+			</div>
+		</section>
+
+		<!-- Creating About Me Layout in HTML -->
+		<section class="about" id="about">
+			<div class="heading">
+				<h2>Tentang Saya</h2>
+			</div>
+			<div class="content">
+				<div class="w50">
+					<img src="images/foto.jpg" alt="" class="proPic" />
+				</div>
+				<div class="contentBx w50">
+					<h2>
+						Saya <b>ALDY RAHMAN </b>, 
+					</h2>
+					<p>
+						Saya seorang mahasiswa di salah satu Universitas Muhammadyah Buton. Saya juga seorang yang
+						memiliki ketertarikan di bidang Pemrograman.
+					</p>
+					<br />
+					<p>
+						Intinya tujuan dari pembuatan portofolio ini yaitu untuk memenuhi nilai uas mata kuliah 
+						Pemograman Web :)
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- Creating Contact Layout in HTML -->
+		<section class="contact" id="contact">
+			<div class="heading white">
+				<h2>Kontak</h2>
+			</div>
+			<div class="content">
+				<div class="contactInfo">
+					<h3>Info Kontak</h3>
+					<div class="contactInfoBx">
+						<div class="box">
+							<div class="icon">
+								<i class="fa fa-map-marker"></i>
+							</div>
+							<div class="text">
+								<h3>Alamat</h3>
+								<p>
+									Palatiga<br />Jln Pahlawan<br />
+								</p>
+							</div>
+						</div>
+						<div class="box">
+							<div class="icon">
+								<i class="fa fa-phone"></i>
+							</div>
+							<div class="text">
+								<h3>Nomor Telepon</h3>
+								<p>085394044694</p>
+							</div>
+						</div>
+						<div class="box">
+							<div class="icon">
+								<i class="fa fa-envelope-o"></i>
+							</div>
+							<div class="text">
+								<h3>Alamat Email</h3>
+								<p>aldyrahman888@gmail.com</p>
+							</div>
+						</div>
+						<br />
+						<h3>Sosial Media</h3>
+						<div class="boxSocial">
+							<div class="icon">
+								<a
+									href="https://www.facebook.com/100006268832925"
+									target="_blank"
+								>
+									<i class="fa fa-facebook-square"></i>
+								</a>
+							</div>
+							<div class="icon">
+								<a href="https://www.twitter.com" target="_blank">
+									<i class="fa fa-twitter-square"></i>
+								</a>
+							</div>
+							<div class="icon">
+								<a href="https://www.linkedin.com/" target="_blank">
+									<i class="fa fa-linkedin-square"></i>
+								</a>
+							</div>
+							<div class="icon">
+								<a href="https://www.instagram.com/_syahrulaxl" target="_blank">
+									<i class="fa fa-instagram"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="formBx">
+					<form>
+						<h3>Pesan Saya</h3>
+						<input type="text" placeholder="Nama Lengkap" name="" />
+						<input type="email" placeholder="Email" name="" />
+						<textarea
+							name=""
+							rows="6"
+							id=""
+							placeholder="Pesan Anda"
+						></textarea>
+						<input type="submit" value="Kirim Pesan" name="" />
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<!-- Creating Footer Layout in HTML -->
+		<footer class="copyright">
+			<p>&copy; 2024 Aldy Taher, Allrights Reserved</p>
+		</footer>
+	</body>
+</html>
